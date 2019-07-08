@@ -1,0 +1,9 @@
+[Unit]
+Description=API
+
+[Service]
+WorkingDirectory= ~/TeamAPoolProjectBackend
+ExecStart= node ~/TeamAPoolProjectBackend/Index.js
+
+[Install]
+WantedBy=multi-user.target
