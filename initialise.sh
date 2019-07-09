@@ -1,10 +1,11 @@
 #! /bin/bash
 
-
+sudo apt update
+sudo apt upgrade
 sudo apt install -y mongodb
-sudo apt install -y nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
+sudo apt install npm
 git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
 git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 
