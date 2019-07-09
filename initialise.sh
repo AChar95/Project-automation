@@ -14,13 +14,13 @@ npm install
 cd ..
 cd TeamAPoolProjectUI
 npm install
-npm -g install --save @angular/cli
+sudo npm -g install --save @angular/cli
 cd ..
 
-sudo systemctl start mongodb
+
 sudo mv ui.service /etc/systemd/system/ui.service
 sudo mv api.service /etc/systemd/system/api.service
 
-
-systemctl start ui.service
-systemctl start api.service
+sudo systemctl start mongodb
+sudo systemctl start ui.service
+sudo systemctl start api.service
