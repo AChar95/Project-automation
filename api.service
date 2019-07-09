@@ -2,8 +2,8 @@
 Description=API
 
 [Service]
-WorkingDirectory= ~/TeamAPoolProjectBackend
-ExecStart= node ~/TeamAPoolProjectBackend/Index.js
+WorkingDirectory= /home/allancharles2095/TeamAPoolProjectBackend
+ExecStart= node /home/allancharles2095/TeamAPoolProjectBackend/Index.js
 
 [Install]
 WantedBy=multi-user.target

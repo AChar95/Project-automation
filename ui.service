@@ -2,7 +2,7 @@
 Description=ui
 
 [Service]
-WorkingDirectory= ~/TeamAPoolProjectUI
+WorkingDirectory= /home/allancharles2095/TeamAPoolProjectUI
 ExecStart= ng s --host 0.0.0.0
 
 [Install]
