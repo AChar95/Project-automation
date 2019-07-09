@@ -10,9 +10,11 @@ git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
 git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 
 cd TeamAPoolProjectBackend
+git checkout Developer
 npm install
 cd ..
 cd TeamAPoolProjectUI
+git checkout Developer
 npm install
 sudo npm -g install --save @angular/cli
 cd ..
