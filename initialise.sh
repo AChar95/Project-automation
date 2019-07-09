@@ -14,8 +14,6 @@ npm install
 cd ..
 cd TeamAPoolProjectUI
 git checkout Developer
-npm cache clean -f
-npm -g install n
 npm install
 sudo npm -g install --save @angular/cli
 cd ..
