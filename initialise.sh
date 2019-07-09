@@ -1,9 +1,9 @@
 #! /bin/bash
 
 
-sudo apt install mongodb
-sudo apt install nodejs
-sudo apt install npm
+sudo apt install -y mongodb
+sudo apt install -y nodejs
+sudo apt install -y npm
 npm clean cache -f
 npm install n
 git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
@@ -23,6 +23,7 @@ cd ..
 sudo mv ui.service /etc/systemd/system/ui.service
 sudo mv api.service /etc/systemd/system/api.service
 
+sudo systemctl daemon-reload
 sudo systemctl start mongodb
 sudo systemctl start ui.service
 sudo systemctl start api.service
