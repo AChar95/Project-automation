@@ -4,8 +4,6 @@
 sudo apt install -y mongodb
 sudo apt install -y nodejs
 sudo apt install -y npm
-npm clean cache -f
-npm install n
 git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
 git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 
@@ -15,6 +13,8 @@ npm install
 cd ..
 cd TeamAPoolProjectUI
 git checkout Developer
+npm clean cache -f
+npm install n
 npm install
 sudo npm -g install --save @angular/cli
 cd ..
