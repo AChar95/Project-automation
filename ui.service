@@ -2,8 +2,7 @@
 Description=ui
 
 [Service]
-WorkingDirectory= /home/allancharles2095/TeamAPoolProjectUI
-ExecStart= ng s --host 0.0.0.0
+ExecStart= /usr/bin/ng s --host 0.0.0.0 /home/allancharles2095/TeamAPoolProjectUI
 
 [Install]
 WantedBy=mult-user.target
