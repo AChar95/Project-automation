@@ -15,8 +15,8 @@ npm install
 cd ..
 cd TeamAPoolProjectUI
 git checkout Developer
-npm install
-sudo npm install -g @angular/cli | yes
+yes | npm install
+yes | sudo npm install -g @angular/cli
 cd ..
 
 
