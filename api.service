@@ -2,7 +2,7 @@
 Description=API
 
 [Service]
-ExecStart= /usr/bin/node /home/allancharles2095/TeamAPoolProjectBackend/Index.js
+ExecStart= /usr/bin/node /home/terraform/TeamAPoolProjectBackend/Index.js
 
 [Install]
 WantedBy=multi-user.target
