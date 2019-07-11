@@ -20,8 +20,8 @@ yes | sudo npm install -g @angular/cli
 cd ..
 
 
-sudo mv ui.service /etc/systemd/system/ui.service
-sudo mv api.service /etc/systemd/system/api.service
+sudo mv ./Project-automation/ui.service /etc/systemd/system/ui.service
+sudo mv ./Project-automation/api.service /etc/systemd/system/api.service
 
 sudo systemctl daemon-reload
 sudo systemctl start mongodb
