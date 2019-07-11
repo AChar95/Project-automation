@@ -1,8 +1,0 @@
-[Unit]
-Description=API
-
-[Service]
-ExecStart= /usr/bin/node /home/terraform/TeamAPoolProjectBackend/Index.js
-
-[Install]
-WantedBy=multi-user.target
