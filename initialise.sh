@@ -12,7 +12,7 @@ git checkout Developer
 yes | npm install
 cd ..
 
-sudo mv ./Project-automation/api.service /etc/systemd/system/api.service
+sudo mv ./api.service /etc/systemd/system/api.service
 
 sudo systemctl daemon-reload
 sudo systemctl start api.service
