@@ -18,3 +18,4 @@ sudo mv ./Project-automation/api.service /etc/systemd/system/api.service
 
 sudo systemctl daemon-reload
 sudo systemctl start api.service
+sudo sytemctl restart api.service
