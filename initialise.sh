@@ -6,3 +6,4 @@ sudo apt install -y mongodb
 sudo mv mongod.conf /etc/mongodb.conf
 sudo systemctl daemon-reload
 sudo systemctl start mongodb
+sudo systemctl restart mongodb
