@@ -12,7 +12,8 @@ cd TeamAPoolProjectBackend
 git checkout Developer
 yes | npm install
 cd ..
-
+sudo rm ./TeamAPoolProjectBackend/config.js
+sudo mv ./Project-automation/config.js ./TeamAPoolProjectBackend/config.js
 sudo mv ./Project-automation/api.service /etc/systemd/system/api.service
 
 sudo systemctl daemon-reload
